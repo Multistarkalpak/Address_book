@@ -25,9 +25,9 @@ namespace Adressbook1
                     case 2:
                         adressbook1.Display();
                         break;
-                    //case 3:
-                    //    adressbook1.EditContact();
-                    //    break;
+                    case 3:
+                        adressbook1.EditContact();
+                        break;
                     default:
                         Console.WriteLine("Entered invalid output");
                         command = "Exit";
