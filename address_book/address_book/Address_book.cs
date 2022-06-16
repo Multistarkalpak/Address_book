@@ -49,7 +49,7 @@ namespace Adressbook1
                 {
                     foreach (var contact in people)
                     {
-                        Console.WriteLine($"Firstname \t{contact.Firstname}\t Lastname \t{contact.Lastname}\t PhoneNumber \t{contact.PhoneNumber}\t city \t{contact.city}\t Zip \t{contact.Zip}\t Email \t{contact.Email}\t Adress \t{contact.Adress}\n ");
+                        Console.WriteLine($"Firstname : {contact.Firstname}\t Lastname : {contact.Lastname}\t PhoneNumber : {contact.PhoneNumber}\t city : {contact.city}\t Zip : {contact.Zip}\t Email : {contact.Email}\t Adress : {contact.Adress}\n ");
 
                     }
                     Console.ReadLine();
