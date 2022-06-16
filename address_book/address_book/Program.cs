@@ -18,9 +18,9 @@ namespace Adressbook1
                 option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
-                    //case 1:
-                    //    adressbook1.Addperson();
-                    //    break;
+                    case 1:
+                        adressbook1.Addperson();
+                        break;
 
                     case 2:
                         adressbook1.Display();
